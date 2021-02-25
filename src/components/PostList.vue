@@ -38,9 +38,8 @@
             },
             deletePosts(){
                 this.posts = []
-            }
-        }
-        
+            },
+        }       
     }
 </script>
 

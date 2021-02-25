@@ -1,15 +1,18 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <PostList />
+  <NewPost />
 </template>
 
 <script>
-import PostList from './components/PostList.vue'
+import PostList from './components/PostList.vue';
+import NewPost from './components/NewPost.vue'
 
 export default {
   name: 'App',
   components: {
-    PostList
+    PostList,
+    NewPost
   }
 }
 </script>
