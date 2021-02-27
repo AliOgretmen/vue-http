@@ -1,18 +1,26 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
+  <hr>
   <PostList />
+  <hr>
   <NewPost />
+  <hr>
+  <!-- Lifecycle Hooks -->
+  <Parent />
+
 </template>
 
 <script>
 import PostList from './components/PostList.vue';
-import NewPost from './components/NewPost.vue'
+import NewPost from './components/NewPost.vue';
+import Parent from './components/Parent.vue';
 
 export default {
   name: 'App',
   components: {
     PostList,
-    NewPost
+    NewPost,
+    Parent
   }
 }
 </script>
